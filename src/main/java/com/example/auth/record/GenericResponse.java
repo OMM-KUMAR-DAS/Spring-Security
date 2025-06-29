@@ -1,5 +1,5 @@
 package com.example.auth.record;
 
-public record GenericResponse() {
+public record GenericResponse(int statuscode,String Message) {
 
 }
